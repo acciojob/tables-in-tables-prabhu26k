@@ -1,8 +1,36 @@
+table {
+            width: 100%;
+        }
 
-/* Your CSS Code here. */
-#tb4
-{
-	background-color:black;
-	color:white;
-	text-align:center;
-}
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        a {
+            color: purple;
+        }
+
+        .nested-table {
+            margin:0 auto;
+            width: 80%;
+        }
+
+        .nested-table td {
+            padding: 5px;
+        }
+
+        .nested-table th {
+            font-weight: bold;
+        }
+
+        .highlight {
+            background-color: black;
+            color: white;
+        }
